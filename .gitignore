@@ -1,0 +1,17 @@
+# built application files
+*.apk
+*.ap_
+
+# Local configuration file (sdk path, etc)
+keystore.properties
+local.properties
+.idea
+.DS_Store
+*.iml
+
+# generated files
+bin/
+gen/
+out/
+build/
+.gradle/
