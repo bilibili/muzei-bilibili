@@ -1,0 +1,19 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+    compile 'com.squareup.retrofit:retrofit:1.8.0'
+    compile 'com.google.android.apps.muzei:muzei-api:2.0'
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "net.yrom.muzei.bili"
+        minSdkVersion 17
+        targetSdkVersion 21
+        versionCode 1
+        versionName "0.1.0"
+    }
+}
